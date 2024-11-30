@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+    <script src="script.js" defer></script> <!-- Link para o arquivo JS -->
+</head>
+<body>
+    <!-- Header com informações pessoais -->
+    <header>
+        <div class="container">
+            <h1>GojoDev:/</h1>
+            <p>Desenvolvedor no Roblox Studio</p>
+        </div>
+    </header>
+
+    <!-- Seção sobre mim -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor Roblox Studio, especialista em scripts LuaU, VFX e modelagem 3D. Transformo ideias em experiências imersivas no mundo do Roblox.</p>
+        </div>
+    </section>
+
+    <!-- Seção de habilidades -->
+    <section id="habilidades">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>LuaU</li>
+                <li>VFX</li>
+                <li>Modelagem 3D</li>
+                <li>Sistemas Avançados</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção de projetos -->
+    <section id="projetos">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="projeto">
+                <h3>Projeto 1</h3>
+                <p>Sistema de combate avançado para jogos Roblox.</p>
+                <a href="https://www.youtube.com/@GojoTrue" target="_blank" class="botao-VideoPJ1">Ver mais</a>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 2</h3>
+                <p>Simulador com VFX dinâmico e física realista.</p>
+                <a href="https://www.youtube.com/@GojoTrue" target="_blank" class="botao-VideoPJ2">Ver mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de perfil do Roblox -->
+    <section id="perfil-roblox">
+        <div class="container">
+            <h2>Meu Perfil no Roblox</h2>
+            <p>Visite meu perfil para explorar meus jogos e criações:</p>
+            <a href="https://www.roblox.com/pt/users/1243099955/profile" target="_blank" class="botao-roblox">Acessar perfil de capitaoMBE</a>
+        </div>
+    </section>
+    
+    <!-- Seção de perfil do Youtube -->
+    <section id="perfil-Youtube">
+        <div class="container">
+            <h2>Meu Perfil no Youtube</h2>
+            <p>Visite meu perfil para explorar meus Video De Projetos:</p>
+            <a href="https://www.youtube.com/@GojoTrue" target="_blank" class="botao-Youtube">Acessar perfil de GojoDev:/</a>
+        </div>
+    </section>
+
+    <!-- Seção de contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Preencha o formulário abaixo para entrar em contato:</p>
+            <form id="form-contato">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="text" name="username" placeholder="Seu Nome de Usuário (ex: @SeuNome)" required>
+                <textarea name="proposta" placeholder="Sua Proposta" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+
+            <!-- Loader e Status Icon -->
+            <div id="loader" style="display: none;">Carregando...</div>
+            <img id="status-icon" src="" alt="Status" style="display: none;">
+
+            <div id="mensagem-sucesso" style="display: none;">
+                <p>Sua solicitação foi enviada com sucesso!</p>
+            </div>
+
+            <div class="dica-atalho">
+                <img src="https://cdn-icons-png.freepik.com/512/5735/5735886.png?uid=R172902090&ga=GA1.1.747911804.1724635896" alt="Ícone de dica">
+                <p>Se Você Violar Algumas Das Diretrizes Que Estão Localizada No Canal Do Discord Você Vai Ser Banido</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GojoDev:/ - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
